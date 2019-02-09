@@ -18,3 +18,7 @@ Uncomment (remove #) in following strings to delete files after conversion:
 #sleep 30
 
 #find . -name "*.jp*g" | parallel --bar --eta rm {} \;
+
+In order to conver files like png or other formats just replace "jpg" with your extenstion in line 
+
+find . -name "*.jpg" | parallel --bar --eta cwebp -q 90 -m 6 -segments 4 -sharp_yuv -v -metadata all {} -o {.}.webp
