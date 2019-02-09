@@ -1,5 +1,5 @@
 # cwebpconv
-Batch cwebp converter
+Batch cwebp converter for linux
 
 Converts files in its folder and subfolders using cwebp and parallel for better speed. 
 
