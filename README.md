@@ -1,5 +1,5 @@
 # cwebpconv
-Batch cwebp converter for linux
+Batch c webp converter for linux uses cwebp tool from google
 
 Converts files in its folder and subfolders using cwebp and parallel for better speed. 
 
