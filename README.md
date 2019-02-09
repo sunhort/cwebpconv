@@ -9,6 +9,8 @@ I noticed that using this settings and cwebp I can get better results without he
 
 Before running install software with command sudo apt install webp parallel -y (for ubuntu and such), other linux you know your package manager.
 
+To run conversion just put script cwebpconv.sh to to folder with you pictures and run it in terminal with ./cwebpconv.sh command
+
 Uncomment (remove #) in following strings to delete files after conversion:
 
 #echo 'Removing source files in 30 seconds, be carefull..'
